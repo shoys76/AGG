@@ -1,0 +1,36 @@
+$pcL: 1980px; // PC L
+$pcM: 1440px; // PC M
+$pcS: 1024px; // PC S
+$tab: 850px; // タブレット
+$sp: 480px; // Mobile
+
+
+@mixin pcL {
+  @media screen and (max-width: ($pcL)) {
+    @content;
+  }
+}
+
+@mixin pcM {
+  @media screen and (max-width: ($pcM)) {
+    @content;
+  }
+}
+
+@mixin pcS {
+  @media screen and (max-width: ($pcS)) {
+    @content;
+  }
+}
+
+@mixin tab {
+  @media screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media screen and (max-width: ($sp)) {
+    @content;
+  }
+}
