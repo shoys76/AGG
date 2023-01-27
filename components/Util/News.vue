@@ -9,9 +9,9 @@
       </div>
     </div>
     <div class="md:ml-5 ml-2 ">
-      <NuxtLink :to="{'path':'/'}" class="hover:text-yellow-400 text-gray-700 md:text-sm text-xs">
+      <p class="hover:text-yellow-400 text-gray-700 md:text-sm text-xs cursor-pointer" @click="openLink(url)">
         {{ text }}
-      </NuxtLink>
+      </p>
     </div>
   </div>
 </template>
@@ -31,6 +31,15 @@ export default ({
     type: {
       type: String,
       default: null
+    },
+    url: {
+      type: String,
+      default: null
+    }
+  },
+  methods: {
+    openLink (url) {
+      window.open(url, '_blank')
     }
   }
 })

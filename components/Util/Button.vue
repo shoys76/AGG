@@ -68,7 +68,6 @@ export default ({
   },
   methods: {
     openPage (path) {
-      console.log(path)
       const url = `/${path}`
       window.open(url, '_blank')
     }
