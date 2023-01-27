@@ -6,7 +6,7 @@
     <div class="w-full flex justify-center items-center">
       <div class="fadein-item bg-white md:w-7/12 w-11/12 rounded-xl pt-8 pb-3 md:px-6 px-2">
         <!-- 9行目のタグをUtilNewsを追加することでNewsを更新できる -->
-        <UtilNews text="プレスリリースを公開しました" date="2023.01.27" type="News" url="https://prtimes.jp/main/html/rd/p/000001380.000005089.html" />
+        <UtilNews text="プレスリリースを公開しました" date="2023.01.27" type="News" url="https://prtimes.jp/main/html/rd/p/000000001.000114652.html" />
         <!--
             下記の文言を入れ替えてコメントを外すことによってページにニュースを追加することができる
               text: ニュースの文言
